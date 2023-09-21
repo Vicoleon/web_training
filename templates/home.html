@@ -72,15 +72,14 @@
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mauris commodo quis imperdiet massa tincidunt. Id velit ut tortor pretium viverra suspendisse. Nunc sed velit dignissim sodales ut eu sem integer vitae. Scelerisque in dictum non consectetur a. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Ut venenatis tellus in metus. Purus in mollis nunc sed id semper risus in. Porttitor eget dolor morbi non arcu risus. Consequat semper viverra nam libero justo laoreet sit amet cursus. Libero id faucibus nisl tincidunt eget nullam. Vitae semper quis lectus nulla. Libero enim sed faucibus turpis.
 
-Urna porttitor rhoncus dolor purus non enim praesent. Molestie a iaculis at erat pellentesque adipiscing commodo. Tortor id aliquet lectus proin nibh. Porta lorem mollis aliquam ut porttitor. Malesuada fames ac turpis egestas maecenas. Tempus quam pellentesque nec nam aliquam sem. Aenean euismod elementum nisi quis eleifend quam adipiscing. Purus in massa tempor nec. Ipsum faucibus vitae aliquet nec. Praesent semper feugiat nibh sed pulvinar. Nascetur ridiculus mus mauris vitae. Et tortor consequat id porta nibh venenatis cras sed. Cras sed felis eget velit aliquet. Felis imperdiet proin fermentum leo vel. Magna fermentum iaculis eu non diam phasellus vestibulum. Quam quisque id diam vel quam elementum pulvinar etiam. Sit amet purus gravida quis blandit turpis cursus in.
+      Urna porttitor rhoncus dolor purus non enim praesent. Molestie a iaculis at erat pellentesque adipiscing commodo. Tortor id aliquet lectus proin nibh. Porta lorem mollis aliquam ut porttitor. Malesuada fames ac turpis egestas maecenas. Tempus quam pellentesque nec nam aliquam sem. Aenean euismod elementum nisi quis eleifend quam adipiscing. Purus in massa tempor nec. Ipsum faucibus vitae aliquet nec. Praesent semper feugiat nibh sed pulvinar. Nascetur ridiculus mus mauris vitae. Et tortor consequat id porta nibh venenatis cras sed. Cras sed felis eget velit aliquet. Felis imperdiet proin fermentum leo vel. Magna fermentum iaculis eu non diam phasellus vestibulum. Quam quisque id diam vel quam elementum pulvinar etiam. Sit amet purus gravida quis blandit turpis cursus in.
     </p>
     <h2>Positions</h2>
-     <div>
+    <div>
       {% for job in jobs %}
-      {%include 'jobitem.html'%}
-      {%endfor%}
-
-    </div>    
+      {% include 'jobitem.html' %}
+      {% endfor %}
+    </div>  
   </main>
 
   <footer>
